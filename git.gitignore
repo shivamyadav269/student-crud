@@ -1,7 +1,12 @@
 
-# Python cache files
-__pycache__/
-*.py[cod]
+# Ignore all Python cache folders
+__pycache__
+**/__pycache__/
+
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
 
 # Virtual environments
 venv/
@@ -11,7 +16,7 @@ env/
 # Environment variables
 .env
 
-# IDE files
+# VS Code
 .vscode/
 
 # Operating system files
